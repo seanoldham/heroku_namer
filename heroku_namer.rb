@@ -1,4 +1,4 @@
-name = ('a'..'z').to_a.shuffle[0..7].join
+name = ('a'..'z').to_a.shuffle[0..15].join
 
 puts "Your new Heroku app is #{name}.herokukapp.com"
 
